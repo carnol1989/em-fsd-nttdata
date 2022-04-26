@@ -1,0 +1,32 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+
+server:
+  port: 8083
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: service-category
+          uri: lb://service-category
+          predicates:
+            - Path=/api/app-category/**
+            - Header=token
+            - Method=GET,POST
+          filters:
+            - StripPrefix=2
+        - id: service-product
+          uri: lb://service-product
+          predicates:
+            - Path=/api/app-product/**
+          filters:
+            - StripPrefix=2
+            - AddResponseHeader=dato-adicional,123
+            - AddRequestHeader=dato-adicional,456
+  application:
+    name: gateway-server

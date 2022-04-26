@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/category/category.iml" filepath="$PROJECT_DIR$/category/category.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoSpringBoot/demoSpringBoot.iml" filepath="$PROJECT_DIR$/demoSpringBoot/demoSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-server/gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nttdata.iml" filepath="$PROJECT_DIR$/.idea/nttdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" filepath="$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" />
+    </modules>
+  </component>
+</project>
